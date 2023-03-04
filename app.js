@@ -19,7 +19,7 @@ app.use(cors());
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb://localhost/todo", {
+  .connect("mongodb+srv://chakrabortypratik:7CUnFDz6ClmaDqJM@cluster0.8kselrc.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
